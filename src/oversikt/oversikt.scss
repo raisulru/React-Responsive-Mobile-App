@@ -1,0 +1,50 @@
+@mixin text-ellipsis {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+$font-color: #585755;
+.oversikt {
+    h4 {
+        color: $font-color;
+        margin-bottom: 0;
+    }
+    .oversikt-body {
+        nav {
+            a {
+                color: $font-color;
+                width: 25%;
+                padding: 5px;
+                font-weight: bold;
+                font-size: 1em;
+                @include text-ellipsis();
+                background-color: transparent;
+                
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+            a.active {
+                background-color: $font-color;
+                color: #fff;
+            }
+        }
+        .table-body {
+            .col-8 {
+                text-align: left;
+                @include text-ellipsis();
+            }
+            .table-content  {
+                border-bottom: 1px solid #ccc;
+
+                &:last-child{
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}

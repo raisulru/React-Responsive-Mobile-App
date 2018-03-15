@@ -1,0 +1,23 @@
+.finanskalender .row {
+  padding: 10px 0; }
+  .finanskalender .row .date {
+    font-size: 2rem;
+    color: #c8453b; }
+  .finanskalender .row .col-9 {
+    padding-top: 10px; }
+    .finanskalender .row .col-9 span {
+      font-weight: bold; }
+
+p {
+  font-size: 1rem; }
+
+p:first-child {
+  font-weight: bold; }
+
+small {
+  color: #808088; }
+
+.footer {
+  padding-bottom: 25px; }
+  .footer hr {
+    margin: 1rem 0; }

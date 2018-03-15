@@ -1,0 +1,14 @@
+.valuta {
+    .valuta-body {
+        .col-6 {
+            text-align: left;
+            white-space: nowrap; 
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .currency {
+            color: #585755;
+        }
+    }
+}

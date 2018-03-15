@@ -1,0 +1,33 @@
+.oversikt h4 {
+  color: #585755;
+  margin-bottom: 0; }
+
+.oversikt .oversikt-body nav a {
+  color: #585755;
+  width: 25%;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: transparent; }
+  .oversikt .oversikt-body nav a:first-child {
+    margin-left: 0; }
+  .oversikt .oversikt-body nav a:last-child {
+    margin-right: 0; }
+
+.oversikt .oversikt-body nav a.active {
+  background-color: #585755;
+  color: #fff; }
+
+.oversikt .oversikt-body .table-body .col-8 {
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.oversikt .oversikt-body .table-body .table-content {
+  border-bottom: 1px solid #ccc; }
+  .oversikt .oversikt-body .table-body .table-content:last-child {
+    border-bottom: none; }

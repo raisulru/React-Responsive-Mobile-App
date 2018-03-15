@@ -1,0 +1,17 @@
+.indekser .indekser-body .table-body .table-item {
+  border-bottom: 1px solid #ccc; }
+  .indekser .indekser-body .table-body .table-item:last-child {
+    border-bottom: none; }
+
+.indekser .indekser-body .table-body div.row {
+  cursor: pointer; }
+
+.indekser .indekser-body .table-body .col-6 {
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+  .indekser .indekser-body .table-body .col-6 div {
+    vertical-align: bottom;
+    padding-right: 5px;
+    margin-bottom: 2px; }

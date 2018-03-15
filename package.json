@@ -1,0 +1,29 @@
+{
+  "name": "market-overview",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "4.0.0-beta.3",
+    "highcharts": "^6.0.4",
+    "jquery": "^3.3.1",
+    "node-sass-chokidar": "^0.0.3",
+    "react": "^16.2.0",
+    "react-collapse": "^4.0.3",
+    "react-country-flag": "^0.1.12",
+    "react-cryptocoins": "^1.0.11",
+    "react-dom": "^16.2.0",
+    "react-highcharts": "^15.0.0",
+    "react-icons-kit": "^1.0.7",
+    "react-motion": "^0.5.2",
+    "react-scripts": "1.0.17",
+    "reactstrap": "^5.0.0-alpha.4"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "react-scripts start && npm run build-css",
+    "build": "react-scripts build && npm run build-css",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

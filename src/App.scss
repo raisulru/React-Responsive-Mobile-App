@@ -1,0 +1,142 @@
+$bg-color: #fdf2ea;
+$border: 1px solid #ccc;
+$header-color: #808080;
+body {
+    background-color: #fdf2ea;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body.modal-open {
+    .modal-content {
+        top: 52px;
+        width: 97%;
+        margin: 0 auto;
+        background-color: transparent;
+    }
+    .navicon {
+        position: fixed;
+        z-index: 1052;
+    }
+    .content {
+        .indekser {
+            margin-top: 94px !important;
+        }
+        form {
+            position: fixed;
+            z-index: 1051;
+            width: 92%;
+            div.input-group-btn {
+                button {
+                    div.kit {
+                        
+                    }
+                }
+            }
+            
+            input {
+                border-width: 0;
+            }
+        }
+    }
+}
+
+hr {
+    margin: 0;
+    border: $border;
+    border-width: .5px;
+}
+
+.navicon {
+    position: absolute;
+    z-index: 99;
+    top: 27px;
+    left: 30px;
+}
+
+div.flag {
+    span {
+        vertical-align: text-bottom !important;
+        width: 2.5em !important;
+        height: 2.5em !important;
+        background-position: 50% center !important;
+        background-size: cover !important;
+        font-size: 1.2em !important;
+        border-radius: 50% !important;
+        overflow: hidden !important;
+    }
+}
+
+.main-header {
+    input {
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: lighten($color: $bg-color, $amount: 1%);
+        padding-left: 52px;
+        &:focus {
+            outline: none;
+            box-shadow: none;
+            border-color: transparent;
+            background-color: lighten($color: $bg-color, $amount: 1%);
+            border: $border;
+        }
+    }
+    .input-group-btn {
+        button {
+            border-radius: 0;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: lighten($color: $bg-color, $amount: 1%);
+            div {
+                padding-top: 5px;
+            }
+        }
+    }
+}
+
+.sub-header {
+    margin-bottom: 10px;
+    h4 {
+        font-size: 1.3em;
+    }
+    h2 {
+        float: left;
+        font-size: 1.8em;
+        margin-bottom: 0;
+        position: relative;
+        top: 12px;
+    }
+    button {
+        float: right;
+        background-color: lighten($bg-color, 1%);
+        border: $border;
+    }
+}
+
+.content {
+    padding-top: 16px;
+}
+
+.table-header {
+    margin-top: 10px;
+    div {
+        text-transform: uppercase;
+        color: $header-color;
+    }
+}
+
+.text-black {
+    color: #479549;
+}
+
+.text-red {
+    color: rgb(255, 0, 0);
+}
+
+div.col-5, 
+div.col-6,
+div.col-8 {
+    font-weight: bold;
+    .col-9 {
+        padding-left: .7em;
+    }
+}

@@ -1,0 +1,16 @@
+.ravarer .ravarer-body .col-6 {
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+  .ravarer .ravarer-body .col-6 .col-3 {
+    padding: 0; }
+    .ravarer .ravarer-body .col-6 .col-3 .ravarer-img {
+      background: #fff;
+      border-radius: 50%;
+      overflow: hidden; }
+      .ravarer .ravarer-body .col-6 .col-3 .ravarer-img img {
+        padding: 2px; }
+
+.ravarer .ravarer-body .currency {
+  color: #585755; }

@@ -1,0 +1,103 @@
+body {
+  background-color: #fdf2ea;
+  font-family: Arial, Helvetica, sans-serif; }
+
+body.modal-open .modal-content {
+  top: 52px;
+  width: 97%;
+  margin: 0 auto;
+  background-color: transparent; }
+
+body.modal-open .navicon {
+  position: fixed;
+  z-index: 1052; }
+
+body.modal-open .content .indekser {
+  margin-top: 94px !important; }
+
+body.modal-open .content form {
+  position: fixed;
+  z-index: 1051;
+  width: 92%; }
+  body.modal-open .content form input {
+    border-width: 0; }
+
+hr {
+  margin: 0;
+  border: 1px solid #ccc;
+  border-width: .5px; }
+
+.navicon {
+  position: absolute;
+  z-index: 99;
+  top: 27px;
+  left: 30px; }
+
+div.flag span {
+  vertical-align: text-bottom !important;
+  width: 2.5em !important;
+  height: 2.5em !important;
+  background-position: 50% center !important;
+  background-size: cover !important;
+  font-size: 1.2em !important;
+  border-radius: 50% !important;
+  overflow: hidden !important; }
+
+.main-header input {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #fdf5ef;
+  padding-left: 52px; }
+  .main-header input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: transparent;
+    background-color: #fdf5ef;
+    border: 1px solid #ccc; }
+
+.main-header .input-group-btn button {
+  border-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #fdf5ef; }
+  .main-header .input-group-btn button div {
+    padding-top: 5px; }
+
+.sub-header {
+  margin-bottom: 10px; }
+  .sub-header h4 {
+    font-size: 1.3em; }
+  .sub-header h2 {
+    float: left;
+    font-size: 1.8em;
+    margin-bottom: 0;
+    position: relative;
+    top: 12px; }
+  .sub-header button {
+    float: right;
+    background-color: #fdf5ef;
+    border: 1px solid #ccc; }
+
+.content {
+  padding-top: 16px; }
+
+.table-header {
+  margin-top: 10px; }
+  .table-header div {
+    text-transform: uppercase;
+    color: #808080; }
+
+.text-black {
+  color: #479549; }
+
+.text-red {
+  color: red; }
+
+div.col-5,
+div.col-6,
+div.col-8 {
+  font-weight: bold; }
+  div.col-5 .col-9,
+  div.col-6 .col-9,
+  div.col-8 .col-9 {
+    padding-left: .7em; }

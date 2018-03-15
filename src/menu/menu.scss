@@ -1,0 +1,50 @@
+$bg-color: #fdf2ea;
+$bg-color2: #ccc;
+$border: 1px solid #ccc;
+.modal-content {
+    .m-content {
+        .menu {
+            text-align: center;
+            a {
+                font-weight: normal;
+                background: $bg-color;
+                margin-top: 8px;
+                border-radius: 5px;
+                padding: 1rem;
+                font-size: 1rem;
+                display: block;
+                font-weight: bold;
+                text-transform: capitalize;
+                div.icon {
+                    background: #eee6de;
+                    padding: 10px;
+                    border-radius: 50%;
+                    color: rgba(0, 0, 0, .7);
+                }
+                &:hover {
+                    background: #c8453b;
+                    color: #fff;
+                    div.icon {
+                        background: #fff;
+                    }
+                }
+                &:active {
+                    background: #c8453b;
+                    color: #fff;
+                    div.icon {
+                        background: #fff;
+                    }
+                }
+                
+            }
+        }
+        .m-kryptovaluta {
+            a {
+                div:last-child {
+                    position: relative;
+                    right: 9px;
+                }
+            }
+        }
+    }
+}

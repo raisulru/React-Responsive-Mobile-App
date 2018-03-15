@@ -1,0 +1,16 @@
+.krypto-valuta .krypto-valuta-body .col-6 {
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+  .krypto-valuta .krypto-valuta-body .col-6 .col-3 {
+    padding: 0; }
+    .krypto-valuta .krypto-valuta-body .col-6 .col-3 .cryptocurrency-img {
+      background: #fff;
+      border-radius: 50%;
+      overflow: hidden; }
+      .krypto-valuta .krypto-valuta-body .col-6 .col-3 .cryptocurrency-img img {
+        padding: 2px; }
+
+.krypto-valuta .krypto-valuta-body .currency {
+  color: #585755; }
